@@ -17,7 +17,7 @@ function HomePage() {
 
   useEffect(() => {
     if (error) {
-      console.log(error);
+      console.log(error?.data?.message);
     }
   }, [error]);
 
